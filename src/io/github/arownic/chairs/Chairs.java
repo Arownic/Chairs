@@ -1,10 +1,8 @@
-package net.spoothie.chairs;
+package io.github.arownic.chairs;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-
-import net.spoothie.chairs.EventListener;
 
 import org.bukkit.Material;
 import org.bukkit.command.Command;

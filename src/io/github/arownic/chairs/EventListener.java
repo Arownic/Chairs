@@ -1,4 +1,4 @@
-package net.spoothie.chairs;
+package io.github.arownic.chairs;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,11 +39,7 @@ public class EventListener implements Listener {
 				Player player = event.getPlayer();
 				Stairs stairs = (Stairs)block.getState().getData();
 				int chairwidth = 1;
-				
-				// Check if block beneath chair is solid.
-				if(block.getRelative(BlockFace.DOWN).getTypeId() == 0 || net.minecraft.server.Block.byId[block.getRelative(BlockFace.DOWN).getTypeId()].a() != true)
-					return;
-				
+
 				// Permissions Check
 				if(!player.hasPermission("chairs.sit"))
 					return;

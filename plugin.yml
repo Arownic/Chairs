@@ -1,8 +1,8 @@
 name: Chairs
-version: 1.3
+version: 1.5
 description: Let players sit on stairs and slabs.
 author: spoothie
-main: net.spoothie.chairs.Chairs
+main: io.github.arownic.chairs.Chairs
 commands:
     chairs:
         description: Reloads the Chairs configuration file.
